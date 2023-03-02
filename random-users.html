@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Users</title>
+    <style>
+        .first-heading{
+            text-align: center;
+            background-color: grey;
+            padding: 5px;
+            border-radius: 7px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1 class="first-heading">Random Users</h1>
+    </header>
+    <main>
+        <section id="users">
+            <h3>Gender : <span id="gender"></span></h3>
+            <img id="image" alt="">
+            <p>Name : <span id="name"></span></p>
+            <p>Location : <span id="location"></span> </p>
+            <p>country : <span id="country"></span> </p>
+            <button onclick="loadRandomData()">Update</button>
+
+        </section>
+    </main>
+    <!-- link js file -->
+    <script src="js/random-users.js"></script>
+</body>
+</html>
